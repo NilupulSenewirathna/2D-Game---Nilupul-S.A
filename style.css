@@ -1,0 +1,114 @@
+.b{
+    height: 100vh;
+    width: 100%;
+    background-image: url("background2.jpg");
+    background-size: cover;
+
+    overflow-x: hidden;
+    position: absolute;
+
+    background-repeat: repeat-x;
+}
+
+
+
+.body{
+    margin: 0px;
+}
+
+.f{
+    position: absolute;
+    height: 150px;
+    margin-top: 500px;
+}
+
+.boy{
+    position: absolute;
+    height: 220px;
+    margin-top: 425px;
+}
+
+.score {
+    position: absolute;
+    font-family: "Bauhaus 93";
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 8px;
+    color: #d6d8e1;
+}
+
+.end {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    
+    
+
+    font-family: "Algerian";
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(8, 0, 255);
+   
+	text-shadow: 5px 1px 2px #d6d8e1,
+				  5px 1px 2px #f3f3f7,
+				  5px -1px 5px #f7f7f9,
+				  -5px -1px 5px #f2f3f7;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 05;
+    visibility: hidden;
+}
+
+.btn {
+    height: 60px;
+    width: 520px;
+    background-color: rgb(253, 228, 1);
+    font-family: "Arial";
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 20px 36px 0 rgba(254, 3, 3, 0.2), 0 20px 28px 0 rgba(253, 2, 2, 0.19);
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    
+}
+
+
+.start {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    
+    
+
+    font-family: "Algerian";
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(8, 0, 255);
+   
+	text-shadow: 5px 1px 2px #d6d8e1,
+				  5px 1px 2px #f3f3f7,
+				  5px -1px 5px #f7f7f9,
+				  -5px -1px 5px #f2f3f7;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 05;
+}
+
+
+
